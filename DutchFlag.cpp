@@ -1,11 +1,6 @@
-// C++ program to sort an array
-// with 0, 1 and 2 in a single pass
 #include <bits/stdc++.h>
 using namespace std;
  
-// Function to sort the input array,
-// the array is assumed
-// to have values in {0, 1, 2}
 void sort012(int a[], int arr_size)
 {
     int lo = 0;
@@ -43,7 +38,6 @@ void printArray(int arr[], int arr_size)
         cout << arr[i] << " ";
 }
  
-// Driver Code
 int main()
 {
     int arr[] = { 0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1 };
